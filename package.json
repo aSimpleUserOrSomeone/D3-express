@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rd /s /q dist && webpack --mode development",
-    "start": "npx nodemon ./dist/server.js"
+    "build": "",
+    "serve": "npx nodemon ./server.js"
   },
   "repository": {
     "type": "git",
