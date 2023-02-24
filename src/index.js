@@ -1,4 +1,7 @@
-import { select } from "d3"
-import './styles/main.css'
+import * as d3 from "d3"
+import './styles/main.scss'
 
-console.log('Text log')
+alert('Script loaded')
+
+const field = d3.select('#field')
+field.style('color', 'red')
